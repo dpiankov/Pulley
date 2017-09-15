@@ -377,9 +377,7 @@ open class PulleyViewController: UIViewController {
         
         // Setup
         primaryContentContainer.backgroundColor = UIColor.white
-        
-        definesPresentationContext = true
-        
+
         drawerScrollView.bounces = false
         drawerScrollView.delegate = self
         drawerScrollView.clipsToBounds = false
